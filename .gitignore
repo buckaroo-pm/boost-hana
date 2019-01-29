@@ -1,3 +1,6 @@
-/build/
-/doc/html/
-/test/worksheet.cpp
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl

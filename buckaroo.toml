@@ -1,0 +1,5 @@
+targets = [ "//:hana" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "branch=master"

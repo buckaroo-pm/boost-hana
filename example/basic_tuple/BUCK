@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'basic_tuple',
+  srcs = [
+    'make.cpp',
+  ],
+  deps = [
+    '//:hana',
+  ],
+)

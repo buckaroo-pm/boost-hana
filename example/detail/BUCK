@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'detail',
+  srcs = [
+    'wrong.cpp',
+  ],
+  deps = [
+    '//:hana',
+  ],
+)
