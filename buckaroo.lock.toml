@@ -6,7 +6,7 @@ target = "//:core"
 
 [lock."github.com/buckaroo-pm/boost-assert"]
 versions = [ "branch=master" ]
-revision = "417f80abf86251b29609a9747dae7756236699aa"
+revision = "628df4e4cb5226f05a35ea62830953dde79927f2"
 
 [lock."github.com/buckaroo-pm/boost-config"]
 versions = [ "branch=master" ]
@@ -14,4 +14,4 @@ revision = "4392ed19b232ed2dde7623843d7e30ef669d860e"
 
 [lock."github.com/buckaroo-pm/boost-core"]
 versions = [ "branch=master" ]
-revision = "82480080750b32b3ef2e3f12157b5c556ae35c0d"
+revision = "4f59c5f06f11cd029a85d932ef51b9d511761f49"
