@@ -1,0 +1,22 @@
+load("//buckaroo:defs.bzl", "buckaroo_deps")
+
+cc_library(
+  name = "hana",
+  includes = [
+    "include",
+    "src",
+  ],
+  hdrs = glob([
+    "include/**/*.hpp",
+    "include/**/*.ipp",
+    "include/**/*.inl",
+  ]),
+  srcs = glob([
+    "src/**/*.cpp",
+    "src/**/*.hpp",
+  ]),
+  deps = buckaroo_deps(),
+  visibility = [
+    '//visibility:public',
+  ],
+)
