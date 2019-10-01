@@ -1,4 +1,10 @@
-/benchmark/datasets/
-/build/
-/doc/gh-pages/
-/test/worksheet.cpp
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo-packages
+cache
+BUCKAROO_DEPS
+buckaroo_macros.bzl
+bazel-*
